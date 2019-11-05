@@ -1,0 +1,33 @@
+section {
+    display: flex; 
+    justify-content: center;  /* centers items horizontally in row layout */
+    align-items: center;  /* centers vertically in row layout */
+    /* flex-direction: column; will set layout to column instead of row */
+}
+
+button {
+    width: 50px;
+    background-color: lightgrey;
+    margin: 10px;
+    font-size: 40px;
+    color: white;
+    border-radius: 7px;
+}
+input {
+    height: 45px;
+    width: 90px;
+    border-color: lightgrey;
+    border-width: 3px;;
+    border-radius: 7px;
+    font-size: 20px;
+    text-align: center;
+    padding: none;
+}
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+button:hover {
+    background-color: white;
+    color: lightgrey;
+}
